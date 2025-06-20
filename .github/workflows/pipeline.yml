@@ -25,7 +25,6 @@ jobs:
 
     - name: Build the project
       run: |
-        cd vue-paper-dashboard-master
         npm run build
 
     - name: Run tests
